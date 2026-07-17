@@ -9,7 +9,7 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-8 py-[18px] md:px-0">
         <a
           href="#top"
-          className="flex items-center gap-2 font-mono text-base font-semibold text-paper"
+          className="flex items-center gap-2 font-mono md:text-xl text-sm font-semibold text-paper"
         >
           <span className="text-green-400">[</span>
           {nav.logo}

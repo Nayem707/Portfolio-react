@@ -10,7 +10,7 @@ export default function SectionHeading({ sectionNum, title }) {
       <p className="font-mono text-xs md:text-xl tracking-wider text-slate-dim">
         {sectionNum}
       </p>
-      <h2 className="mt-2 font-mono text-3xl font-semibold text-paper">
+      <h2 className="mt-2 font-mono uppercase text-3xl font-semibold text-paper">
         {title.map((segment, i) => (
           <span key={i} className={segment.accent ? "text-green-400" : ""}>
             {segment.text}
