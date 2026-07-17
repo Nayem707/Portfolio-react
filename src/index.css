@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Schema diagram connector lines: drawn-in on mount via .animate-draw (see tailwind.config.js) */
+.schema-line {
+  stroke: #5c7590;
+  stroke-width: 1;
+  fill: none;
+  stroke-dasharray: 280;
+  stroke-dashoffset: 280;
+}
