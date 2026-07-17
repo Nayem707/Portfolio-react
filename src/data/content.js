@@ -118,9 +118,9 @@ export const project = {
   description:
     "A full-stack boat charter booking platform designed to simplify online reservations, secure payments, and trip management for customers, captains, and administrators.",
 
-  liveHref: "https://your-live-demo.com",
+  liveHref: "https://fishingtripper.com/",
 
-  repoHref: "https://github.com/your-username/fishingtripper",
+  repoHref: "https://github.com/Nayem707",
 
   tags: [
     "React",
