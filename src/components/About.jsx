@@ -8,11 +8,11 @@ export default function About() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading sectionNum={about.sectionNum} title={about.title} />
 
-        <BlueprintFrame className="p-10 bg-slate-950/40 backdrop-blur-xs">
-          <div className="mb-8 flex flex-wrap lg:gap-20 md:gap-10 gap-8 border-b border-dashed border-gridStrong pb-5">
+        <BlueprintFrame className="backdrop-blur-xs bg-slate-950/70 p-10">
+          <div className="mb-8 flex justify-between border-b border-dashed border-gridStrong pb-5">
             {about.meta.map((item) => (
-              <div key={item.label} className=" text-slate-dim">
-                <strong className="mb-1 block text-xs md:text-sm uppercase tracking-wider text-green-400">
+              <div key={item.label} className="grid text-slate-dim">
+                <strong className="mb-1 block text-xs uppercase tracking-wider text-green-400 md:text-sm">
                   {item.label}
                 </strong>
                 {item.value}
