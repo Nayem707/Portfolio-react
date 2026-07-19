@@ -42,7 +42,7 @@ export default {
           "radial-gradient(ellipse 80% 55% at 50% 0%, rgba(95,209,204,0.08), transparent 60%)",
       },
       backgroundSize: {
-        grid: "48px 48px",
+        grid: "10px 10px",
       },
       keyframes: {
         draw: {
