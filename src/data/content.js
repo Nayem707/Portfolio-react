@@ -10,15 +10,15 @@ export const nav = {
 };
 
 export const hero = {
-  eyebrow: "Software Developer",
+  eyebrow: "👋 Hello There!",
   headline: [
     { text: "I design and ship ", accent: false },
     { text: "scalable systems", accent: true },
-    { text: " with MERN, PERN & Prisma.", accent: false },
+    { text: " with MERN.", accent: false },
   ],
   sub: "From database schema to deployed infrastructure — I build backend services and frontend interfaces that stay clean, testable, and maintainable as they grow.",
-  primaryCta: "Let's Build",
-  secondaryCta: "Download Resume",
+  primaryCta: "Case Study",
+  secondaryCta: "Get Resume",
 };
 
 export const about = {
@@ -30,16 +30,16 @@ export const about = {
   ],
 
   meta: [
-    { label: "Role", value: "Full-Stack Developer" },
-    { label: "Focus", value: "Backend Architecture & Scalable Systems" },
-    { label: "Stack", value: "React · Node.js · PostgreSQL · MongoDB" },
+    { label: "Role", value: "Softwere Developer" },
+    { label: "Focus", value: "Architecture & Scalable Systems" },
+    { label: "Stack", value: "MERN" },
     { label: "Status", value: "Open to Opportunities" },
   ],
 
   paragraphs: [
-    "I'm a Full-Stack MERN Developer who enjoys building applications that are reliable, maintainable, and easy to extend. My primary focus is backend engineering—designing RESTful APIs, modeling databases with PostgreSQL, MongoDB, and Prisma, and creating clean application architectures using SOLID principles and separation of concerns. Rather than writing code that simply works, I aim to build systems that remain understandable and scalable as projects evolve.",
+    "I'm a Software Developer specializing in the MERN stack who enjoys building applications that are reliable, maintainable, and easy to extend. My primary focus is backend engineering—designing RESTful APIs, modeling relational and non-relational databases using PostgreSQL, MongoDB, and Prisma, and creating clean application architectures driven by SOLID principles and strict separation of concerns. Rather than writing code that simply works, I aim to build systems that remain understandable and performant as business logic evolves.",
 
-    "Beyond application development, I'm continuously expanding my understanding of software engineering fundamentals. I actively study system design, design patterns, computer architecture, and operating system concepts to strengthen the way I design software. I also work with Docker, Redis, testing using Jest and Supertest, Git-based workflows, and modern deployment platforms. I believe good software is created through thoughtful architecture, clean code, continuous learning, and attention to long-term maintainability—not by relying on shortcuts.",
+    "Beyond daily features, I'm deeply committed to computer science fundamentals. I actively study system design, software engineering patterns, computer architecture, and operating system concepts to write optimized and reliable software. My practical toolkit includes containerization with Docker, API caching via Redis, integration testing with Jest/Supertest, and Git-driven team workflows. I believe that sustainable software is the outcome of thoughtful architecture, comprehensive test coverage, and a refusal to rely on shortcuts.",
   ],
 };
 
@@ -53,52 +53,48 @@ export const skills = {
   categories: [
     {
       label: "Languages",
-      items: ["JavaScript (ES6+)", "TypeScript", "Python", "SQL"],
+      items: ["TypeScript", "JavaScript (ES6+)", "SQL", "Python"],
     },
-
     {
       label: "Frontend",
       items: [
         "React.js",
         "Next.js",
-        "Tailwind CSS",
         "Redux Toolkit",
-        "React Router",
+        "Tailwind CSS",
+        "Shadcn UI",
       ],
     },
-
     {
       label: "Backend",
-      items: [
-        "Node.js",
-        "Express.js",
-        "RESTful API Design",
-        "JWT Authentication",
-        "MVC Architecture",
-      ],
+      items: ["Node.js", "Express.js", "RESTful APIs", "JWT Authentication"],
     },
-
     {
-      label: "Database",
-      items: ["MongoDB", "PostgreSQL", "Prisma ORM", "Redis"],
+      label: "Databases",
+      items: ["PostgreSQL", "MongoDB", "Prisma ORM", "Redis"],
     },
-
+    {
+      label: "Cloud",
+      items: ["AWS", "Azure", "Railway", "Render"],
+    },
+    {
+      label: "DevOps",
+      items: ["Docker", "Kubernetes", "Coolify", "Nginx"],
+    },
     {
       label: "Testing",
-      items: ["Jest", "Supertest", "Postman"],
+      items: ["Jest", "Supertest", "Postman", "QA"],
     },
-
     {
-      label: "Tools",
-      items: ["Git", "GitHub", "Docker", "Render", "Railway", "NPM"],
+      label: "Developer Tools",
+      items: ["Git", "GitHub", "Github Action", "NPM"],
     },
-
     {
-      label: "Engineering",
+      label: "Architecture & Design",
       items: [
-        "SOLID Principles",
-        "Design Patterns",
         "System Design",
+        "Design Patterns",
+        "SOLID Principles",
         "Clean Code",
       ],
     },

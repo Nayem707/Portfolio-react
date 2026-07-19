@@ -10,12 +10,12 @@ export default function Hero() {
     >
       <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 md:grid-cols-[1.05fr_0.95fr]">
         <div>
-          <p className="mb-5 flex items-center gap-2.5 font-mono text-sm md:text-base uppercase tracking-widest text-yellow-200/50">
+          <p className="mb-5 flex items-center gap-2.5 font-mono text-sm uppercase tracking-widest text-yellow-200/50 md:text-base">
             <span className="text-slate-dim">//</span>
             {hero.eyebrow}
           </p>
 
-          <h1 className="mb-6 max-w-2xl font-mono md:text-3xl uppercase text-2xl font-semibold leading-tight tracking-tight text-paper md:text-[44px]">
+          <h1 className="mb-6 max-w-4xl font-mono text-2xl font-bold uppercase md:text-3xl md:text-[40px]">
             {hero.headline.map((segment, i) => (
               <span key={i} className={segment.accent ? "text-green-400" : ""}>
                 {segment.text}
@@ -23,14 +23,14 @@ export default function Hero() {
             ))}
           </h1>
 
-          <p className="mb-8 max-w-2xl font-mono text-[17px] text-slate">
+          <p className="mb-8 max-w-4xl font-mono text-lg text-slate">
             {hero.sub}
           </p>
 
           <div className="flex flex-wrap gap-3.5">
             <a
-              href="#contact"
-              className="group inline-flex items-center gap-2.5 bg-green-500/50 text-white px-6 py-3.5 font-mono text-sm font-semibold transition-all hover:-translate-y-0.5 hover:bg-cyanAccent/80"
+              href="#work"
+              className="group inline-flex items-center gap-2.5 bg-green-500/50 px-6 py-3.5 font-mono text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-cyanAccent/80 md:text-base"
             >
               {hero.primaryCta}
               <span className="transition-transform group-hover:translate-x-1">
@@ -40,7 +40,7 @@ export default function Hero() {
             <a
               href="/NAYEM ISLAM RESUME.pdf"
               download
-              className="border border-green-500 px-6 py-3.5 font-mono text-sm text-green-500 transition-colors hover:border-amber hover:text-amber"
+              className="border border-green-500 px-6 py-3.5 font-mono text-sm text-green-500 transition-colors hover:border-amber hover:text-amber md:text-base"
             >
               {hero.secondaryCta}
             </a>
